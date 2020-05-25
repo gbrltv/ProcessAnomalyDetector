@@ -1,5 +1,5 @@
 '''
-Process anomaly detection using word2vec modelling and one class classification algorithmsa
+Process anomaly detection using word2vec modelling and one class classification algorithms
 '''
 
 import os
