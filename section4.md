@@ -1,4 +1,4 @@
-Results and Discussions {#rd}
+Results and Discussions
 =======================
 
 This section presents the results obtained from several complementary
@@ -8,7 +8,7 @@ configuration, we refer to Table [tab:tuning]. To follow the open
 science principles, we made the experiments available[^1], while event
 logs can be obtained as stated in the procedure of Section [el].
 
-Word2vec descriptive performance {#res:w2v}
+Word2vec descriptive performance
 --------------------------------
 
 The initial experiment aims at evaluating how representational learning
