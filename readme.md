@@ -1,5 +1,3 @@
-[!h]
-
   Name       \#Logs   \#Activities   \#Cases     \#Events   \#Attributes   \#Attribute values
   ---------- -------- -------------- ----------- ---------- -------------- --------------------
   P2P        4        27             5k          48k-53k    1-4            13-386
@@ -14,4 +12,4 @@
   BPIC15     5        422-486        0.8k-1.4k   46k-62k    2-3            23-481
   BPIC17     1        53             31k         1.2M       1              299
 
-[tab:stats]
+  : Detailed event logs statistics[]{label="tab:stats"}
