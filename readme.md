@@ -14,7 +14,7 @@
 - [Installation](#installation)
 - [Event Log Stats](#event-log-statistics)
 - [Experimental Setup](#experimental-setup)
-
+- [Data Analysis](#data-analysis)
 
 ## Installation
 
@@ -73,3 +73,7 @@ python process_anomaly.py
 |         LOF         | *contamination* | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, auto<span>\]</span> |
 
 </div>
+
+## Data Analysis
+
+![small-0.3-2 Trace Distribution](/figures/small-0.3-2.jpeg)
