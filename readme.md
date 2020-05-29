@@ -8,14 +8,25 @@
 [![GitHub license](https://img.shields.io/github/license/gbrltv/ProcessAnomalyDetector)](https://github.com/gbrltv/ProcessAnomalyDetector/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Using+Business%20Process+Anomaly+Detector:&url=https://github.com/gbrltv/ProcessAnomalyDetector)
 
----
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Event Log Stats](#event-log-statistics)
 - [Experimental Setup](#experimental-setup)
 
----
+
+## Installation
+
+```shell
+git clone https://github.com/gbrltv/ProcessAnomalyDetector.git
+```
+
+#### Running experiments
+
+```shell
+python process_anomaly.py
+```
 
 ## Event Log Statistics
 
@@ -37,7 +48,6 @@
 
 </div>
 
----
 
 ## Experimental Setup
 
