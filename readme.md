@@ -18,11 +18,17 @@
 
 ## Installation
 
+### Clone
+
+Clone this repo to your local machine using
+
 ```shell
 git clone https://github.com/gbrltv/ProcessAnomalyDetector.git
 ```
 
-#### Running experiments
+### Experiments
+
+Simulate the experiments described here
 
 ```shell
 python process_anomaly.py
