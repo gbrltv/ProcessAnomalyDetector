@@ -17,3 +17,22 @@
 Detailed event logs statistics
 
 </div>
+
+
+<div id="tab:tuning">
+
+|       Method        | Hyperparameter  | Values                                                                               |
+| :-----------------: | :-------------: | :----------------------------------------------------------------------------------- |
+|                     |       *c*       | <span>\[</span>0.1, 1, 10, 100, 1000, 10000, 100000<span>\]</span>                   |
+|                     |    *kernel*     | <span>\[</span>polynomial, rbf, sigmoid<span>\]</span>                               |
+|                     |     *gamma*     | <span>\[</span>auto, scale<span>\]</span>                                            |
+|                     |      *nu*       | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4<span>\]</span>       |
+|                     |    *kernel*     | <span>\[</span>polynomial, rbf, sigmoid<span>\]</span>                               |
+|                     |     *gamma*     | <span>\[</span>auto, scale<span>\]</span>                                            |
+|                     |       *k*       | <span>\[</span>1, 10, 25, 50, 100, 250<span>\]</span>                                |
+|                     | *contamination* | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, auto<span>\]</span> |
+| (l)<span>1-3</span> |                 |                                                                                      |
+
+Collection of combined hyperparametes values
+
+</div>
