@@ -15,6 +15,7 @@
 - [Event Log Stats](#event-log-statistics)
 - [Experimental Setup](#experimental-setup)
 - [Data Analysis](#data-analysis)
+- [Contributors](#contributors)
 
 ## Installation
 
@@ -78,8 +79,14 @@ python process_anomaly.py
 
 ![small-0.3-2 Trace Distribution](/figures/small-0.3-2.jpeg)
 
-<div style="text-align: justify">
+<div style="text-align: justify;">
 
 *small-0.3-2* trace distribution further demonstrates the effectiveness of word2vec embeddings. We applied this technique to the *small-0.3-2* event log using 200 dimensions and a window size of 1. Then, using the t-SNE dimensionality reduction technique (with standard hyperparameters from [Scikit-learn package](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html "t-SNE Scikit Documentation"), the number of dimensions was reduced to two. We can see how word2vec distributes the normal and anomalous classes in the feature space. Word2vec correctly interprets the activities contexts placing anomalous behaviour apart from normal. Moreover, anomalous instances are usually near normal ones because they are a slight variation of them, according to the injecting procedure we followed.
 
 </div>
+
+## Contributors
+
+- [Gabriel Marques Tavares](https://www.researchgate.net/profile/Gabriel_Tavares6), PhD candidate at Università degli Studi di Milano
+- [Paolo Ceravolo](https://www.unimi.it/en/ugov/person/paolo-ceravolo), Associate Professor at Università degli Studi di Milano
+- [Sylvio Barbon Junior](http://www.barbon.com.br/), Associate Professor at State University of Londrina
