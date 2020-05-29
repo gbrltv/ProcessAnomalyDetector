@@ -12,8 +12,8 @@
 
 ## Table of Contents
 
-- [Event Log Stats](#event_log_statistics)
-- [Experimental Setup](#experimental_setup)
+- [Event Log Stats](#event-log-statistics)
+- [Experimental Setup](#experimental-setup)
 
 ---
 

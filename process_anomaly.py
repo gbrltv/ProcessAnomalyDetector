@@ -91,7 +91,7 @@ def compute_metrics(y_true, y_pred):
     return acc, f1, precision, recall
 
 scl = StandardScaler()
-path = 'sample_data'
+path = 'data'
 for log in os.listdir(path):
     log_name = log.split('.csv')[0]
     start_time_log = time.time()
