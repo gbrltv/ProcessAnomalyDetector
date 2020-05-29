@@ -8,6 +8,17 @@
 [![GitHub license](https://img.shields.io/github/license/gbrltv/ProcessAnomalyDetector)](https://github.com/gbrltv/ProcessAnomalyDetector/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Using+Business%20Process+Anomaly+Detector:&url=https://github.com/gbrltv/ProcessAnomalyDetector)
 
+---
+
+## Table of Contents
+
+- [Event Log Stats](#event_log_statistics)
+- [Experimental Setup](#experimental_setup)
+
+---
+
+## Event Log Statistics
+
 <div id="tab:stats">
 
 | Name     | \#Logs | \#Activities | \#Cases   | \#Events | \#Attributes | \#Attribute values |
@@ -28,6 +39,9 @@ Detailed event logs statistics
 
 </div>
 
+---
+
+## Experimental Setup
 
 <div id="tab:tuning">
 
@@ -42,6 +56,6 @@ Detailed event logs statistics
 |         LOF         |       *k*       | <span>\[</span>1, 10, 25, 50, 100, 250<span>\]</span>                                |
 |         LOF         | *contamination* | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, auto<span>\]</span> |
 
-Collection of combined hyperparametes values
+> Collection of combined hyperparametes values
 
 </div>
