@@ -6,7 +6,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/gbrltv/ProcessAnomalyDetector)](https://github.com/gbrltv/ProcessAnomalyDetector/network)
 [![GitHub stars](https://img.shields.io/github/stars/gbrltv/ProcessAnomalyDetector)](https://github.com/gbrltv/ProcessAnomalyDetector/stargazers)
 [![GitHub license](https://img.shields.io/github/license/gbrltv/ProcessAnomalyDetector)](https://github.com/gbrltv/ProcessAnomalyDetector/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Using Business Process Anomaly Detector:&url=https://github.com/gbrltv/ProcessAnomalyDetector)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Using+Business%20Process+Anomaly+Detector:&url=https://github.com/gbrltv/ProcessAnomalyDetector)
 
 <div id="tab:stats">
 
