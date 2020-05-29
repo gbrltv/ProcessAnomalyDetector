@@ -31,7 +31,6 @@ Detailed event logs statistics
 |        OCSVM        |     *gamma*     | <span>\[</span>auto, scale<span>\]</span>                                            |
 |         LOF         |       *k*       | <span>\[</span>1, 10, 25, 50, 100, 250<span>\]</span>                                |
 |         LOF         | *contamination* | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, auto<span>\]</span> |
-| (l)<span>1-3</span> |                 |                                                                                      |
 
 Collection of combined hyperparametes values
 
