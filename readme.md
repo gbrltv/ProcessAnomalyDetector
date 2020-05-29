@@ -35,13 +35,13 @@
 | BPIC15   | 5      | 422-486      | 0.8k-1.4k | 46k-62k  | 2-3          | 23-481             |
 | BPIC17   | 1      | 53           | 31k       | 1.2M     | 1            | 299                |
 
-Detailed event logs statistics
-
 </div>
 
 ---
 
 ## Experimental Setup
+
+> Collection of combined hyperparametes values
 
 <div id="tab:tuning">
 
@@ -55,7 +55,5 @@ Detailed event logs statistics
 |        OCSVM        |     *gamma*     | <span>\[</span>auto, scale<span>\]</span>                                            |
 |         LOF         |       *k*       | <span>\[</span>1, 10, 25, 50, 100, 250<span>\]</span>                                |
 |         LOF         | *contamination* | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, auto<span>\]</span> |
-
-> Collection of combined hyperparametes values
 
 </div>
