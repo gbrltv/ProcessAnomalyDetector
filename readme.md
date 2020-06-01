@@ -39,7 +39,7 @@ python process_anomaly.py
 
 ## Event Log Statistics
 
-Event logs were generated following the procedure proposed at https://github.com/tnolle/binet. The PLG2 tool was used to create six random process models with varying complexities, such as, the number of activities, breadth and width. Moreover, a procurement process model (P2P) and the real event logs from BPIC challenges were added (https://www.tf-pm.org/resources/logs). The process models were implemented as likelihood graphs, which were then simulated. Finally, six different types of anomalies were injected in the event logs. These anomalies represent complex behaviors that might affect a process execution. All event logs have a 30% rate of anomalous instances, which can be identified by the label attribute in the logs. Log statistics are reported in the following [Table](#tab:stats).
+Event logs were generated following the procedure proposed at https://github.com/tnolle/binet. The PLG2 tool was used to create six random process models with varying complexities, such as, the number of activities, breadth and width. Moreover, a procurement process model (P2P) and the real event logs from BPIC challenges were added (https://www.tf-pm.org/resources/logs). The process models were implemented as likelihood graphs, which were then simulated. Finally, six different types of anomalies were injected in the event logs. These anomalies represent complex behaviors that might affect a process execution. All event logs have a 30% rate of anomalous instances, which can be identified by the label attribute in the logs. Log statistics are reported in the following table.
 
 <div id="tab:stats">
 
@@ -62,7 +62,7 @@ Event logs were generated following the procedure proposed at https://github.com
 
 ## Experimental Setup
 
-> Collection of combined hyperparametes values
+The main idea behind the encoding is to read activities as words and traces as sentences. This perspective allow us to model process instances using the word2vec algorithm. With that, we are capable of evaluating activities context and further identify anomalous executions. For the experiments, we used three algorithms: Support Vector Machines (SVM), One-Class Support Vector Machines (OCSVM) and Local Outlier Factor (LOF). SVM is a traditional machine learning algorithm used in many tasks, and as a supervised technique, it requires knowledge of the instances for the training phase. OCSVM is a one-class version of SVM, meaning that it only need positive classes for training (in our case, normal process executions). The same applied for LOF, an algorithm that detects outliers given a set of vectors using local point density. The implementation used the scikit-learn Python library (https://github.com/scikit-learn/scikit-learn). The following table lists the hyperparameters configurations. We performed a hyperparameter tuning following the grid search technique.
 
 <div id="tab:tuning">
 
@@ -78,6 +78,8 @@ Event logs were generated following the procedure proposed at https://github.com
 |         LOF         | *contamination* | <span>\[</span>0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, auto<span>\]</span> |
 
 </div>
+
+> Collection of combined hyperparametes values
 
 ## Data Analysis
 
