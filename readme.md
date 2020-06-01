@@ -39,7 +39,9 @@ python process_anomaly.py
 
 ## Event Log Statistics
 
-<div id="tab:stats">
+Event logs were generated following the procedure proposed at https://github.com/tnolle/binet. The PLG2 tool was used to create six random process models with varying complexities, such as, the number of activities, breadth and width. Moreover, a procurement process model (P2P) and the real event logs from BPIC challenges were added (https://www.tf-pm.org/resources/logs). The process models were implemented as likelihood graphs, which were then simulated. Finally, six different types of anomalies were injected in the event logs. These anomalies represent complex behaviors that might affect a process execution. All event logs have a 30% rate of anomalous instances, which can be identified by the label attribute in the logs. Log statistics are reported in the following [Table](#tab:stats).
+
+<div name="tab:stats">
 
 | Name     | \#Logs | \#Activities | \#Cases   | \#Events | \#Attributes | \#Attribute values |
 | :------- | :----- | :----------- | :-------- | :------- | :----------- | :----------------- |
