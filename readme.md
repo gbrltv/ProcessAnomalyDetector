@@ -83,7 +83,7 @@ The main idea behind the encoding is to read activities as words and traces as s
 
 ## Data Analysis
 
-### Trace distribution
+#### Trace distribution
 
 ![small-0.3-2 Trace Distribution](/figures/small-0.3-2.jpeg)
 
@@ -93,7 +93,7 @@ The main idea behind the encoding is to read activities as words and traces as s
 
 </div>
 
-### Classification performance
+#### Classification performance
 
 ![Overall classification performance using the F-score metric](/figures/classification_performance.jpeg)
 
