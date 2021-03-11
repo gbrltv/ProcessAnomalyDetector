@@ -8,7 +8,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/gbrltv/ProcessAnomalyDetector)](https://github.com/forks/gbrltv/ProcessAnomalyDetector)
 [![GitHub stars](https://img.shields.io/github/stars/gbrltv/ProcessAnomalyDetector)](https://img.shields.io/github/stars/gbrltv/ProcessAnomalyDetector)
 [![GitHub license](https://img.shields.io/github/license/gbrltv/ProcessAnomalyDetector)](https://img.shields.io/github/license/gbrltv/ProcessAnomalyDetector)
-[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Using+Business%20Process+Anomaly+Detector:&url=https://github.com/gbrltv/ProcessAnomalyDetector)
 
 
 ## Table of Contents
@@ -102,6 +101,12 @@ The main idea behind the encoding is to read activities as words and traces as s
 As the figure above shows, LOF outperforms the other two algorithms with some margin, with its entire first quartile above 0.95. This result even more interesting when considering that LOF only needs normal examples in the training process. On the other hand, SVM, which uses anomalous examples in the training phase, has a lower performance because of the noise during the model induction. In conclusion, traditional supervised methods do not necessarily have better performance than one-class classification algorithms. 
 
 </div>
+
+
+## References
+
+[Barbon Jr., S., Ceravolo, P., Damiani, E., Omori, N.J., Tavares, G.M.: Anomaly Detection on Event Logs with a Scarcity of Labels, 2020](https://ieeexplore.ieee.org/abstract/document/9230308)
+
 
 ## Contributors
 
